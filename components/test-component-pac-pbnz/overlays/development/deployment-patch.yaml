@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-component-pac-pbnz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-lggx-tenant/build-suite-test-application-frrw/test-component-pac-pbnz@sha256:79c9efe6b4d0eff2b2b3e24963a0dac6eb9315c4fadbadc315094ae88a79587b
+        name: my-nginx
+        resources: {}
+status: {}
