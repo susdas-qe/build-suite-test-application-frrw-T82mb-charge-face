@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-component-pac-pbnz
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/redhat-appstudio-qe/build-e2e-lggx-tenant/build-suite-test-application-frrw/test-component-pac-pbnz@sha256:79c9efe6b4d0eff2b2b3e24963a0dac6eb9315c4fadbadc315094ae88a79587b
         name: my-nginx
         ports:
         - containerPort: 8080
